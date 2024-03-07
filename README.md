@@ -1,3 +1,3 @@
 # KoinX Frontend Developer Assignment
 
-Deployed Link: 
+Deployed Link: https://koinx-project.netlify.app/
