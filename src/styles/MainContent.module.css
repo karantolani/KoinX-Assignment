@@ -1,0 +1,36 @@
+.main {
+    background-color: #eff2f5;
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    column-gap: 1.6rem;
+    row-gap: 1.6rem;
+    padding: 1.6rem 6.5rem;
+}
+
+.left-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.right-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.crypto-para {
+    font-size: 1.4rem;
+}
+
+.crypto-highlight {
+    font-weight: 500;
+}
+
+@media screen and (max-width: 425px) {
+    .main {
+        grid-template-columns: 1fr;
+        padding: 1.6rem;
+    }
+}

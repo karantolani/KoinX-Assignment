@@ -1,0 +1,39 @@
+.get-started-container {
+    background-color: #2870ea;
+    border-radius: .8rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: column;
+    padding: 3.2rem 1.6rem;
+}
+
+.get-started-container h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.get-started-container p {
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+.btn-get-started {
+    background-color: white;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: .8rem;
+    align-self: center;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: .4rem;
+}
+
+.get-started-img {
+    width: 250px;
+    place-self: center;
+}

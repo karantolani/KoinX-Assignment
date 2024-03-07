@@ -1,0 +1,10 @@
+header nav {
+    margin-left: auto;
+    display: flex;
+    gap: 2rem;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+

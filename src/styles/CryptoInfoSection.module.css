@@ -1,0 +1,61 @@
+.cryptoinfo-section-header {
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+}
+
+.cryptoinfo-section-header img {
+    width: 28px;
+    height: 28px;
+}
+
+.crypto-abbr {
+    text-transform: uppercase;
+    color: grey;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.crypto-rank {
+    color: white;
+    background-color: #768396;
+    border-radius: .4rem;
+    padding: 1rem .8rem;
+    font-size: 1.4rem;
+    margin-left: 1.6rem;
+}
+
+.crypto-value-section {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 1.6rem;
+    row-gap: .8rem;
+    margin-top: .8rem;
+    align-items: center;
+}
+
+.dollar-value {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.rupee-value {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.text-growth {
+    border-radius: .8rem;
+    padding: .4rem .8rem;
+    font-weight: 500;
+}
+
+.positive {
+    background-color: rgba(144, 238, 144, 0.4);
+    color: green;
+}
+
+.negative {
+    background-color: rgba(255, 0, 0, 0.4);
+    color: darkred;
+}
